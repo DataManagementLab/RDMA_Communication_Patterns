@@ -1,3 +1,3 @@
-# RDMA_Communication_Patterns
+# RDMA Communication Patterns
 Systematic Evaluation of RDMA Request-Response Patterns
 
