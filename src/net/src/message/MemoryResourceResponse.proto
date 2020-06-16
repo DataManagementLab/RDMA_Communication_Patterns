@@ -1,0 +1,7 @@
+syntax = "proto3";
+package rdma;
+
+message MemoryResourceResponse {
+    uint64 offset = 1;
+    uint32 return = 2;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+package rdma;
+
+message GetNodeIDForIpPortRequest {
+    string ipPort = 1;
+}
+

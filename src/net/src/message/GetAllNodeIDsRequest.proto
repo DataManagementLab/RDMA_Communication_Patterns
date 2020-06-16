@@ -1,0 +1,7 @@
+syntax = "proto3";
+package rdma;
+
+message GetAllNodeIDsRequest {
+    uint64 node_id = 1;
+}
+

@@ -1,0 +1,7 @@
+syntax = "proto3";
+package rdma;
+
+message NodeIDResponse {
+    uint64 nodeid = 1;
+    uint32 return = 2;
+}

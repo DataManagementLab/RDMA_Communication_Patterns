@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ErrorMessage {
+    uint32 return = 1;
+}

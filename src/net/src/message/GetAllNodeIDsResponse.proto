@@ -1,0 +1,14 @@
+syntax = "proto3";
+package rdma;
+
+message NodeIDStruct {
+    string ip = 1;
+    string name = 2;
+    uint64 node_id = 3;
+    uint32 node_type_enum = 4;
+}
+
+message GetAllNodeIDsResponse {
+    repeated NodeIDStruct nodeid_entries = 1;
+    uint32 return = 2;
+}

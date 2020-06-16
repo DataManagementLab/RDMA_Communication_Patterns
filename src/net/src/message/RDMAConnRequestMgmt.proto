@@ -1,0 +1,12 @@
+syntax = "proto3";
+package rdma;
+
+message RDMAConnRequestMgmt {
+    uint64 buffer = 1;
+    uint32 rkey = 2;
+    uint32 qp_num = 3;
+    uint32 lid = 4;
+    uint64 server_connkey = 5;
+    uint32 psn = 6;
+    repeated uint32 gid = 7 [packed=true]; 
+}

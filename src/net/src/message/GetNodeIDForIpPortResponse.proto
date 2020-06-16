@@ -1,0 +1,10 @@
+syntax = "proto3";
+package rdma;
+
+message GetNodeIDForIpPortResponse {
+    string ip = 1; //ip port
+    string name = 2;
+    uint64 node_id = 3;
+    uint32 node_type_enum = 4;
+    uint32 return = 5;
+}

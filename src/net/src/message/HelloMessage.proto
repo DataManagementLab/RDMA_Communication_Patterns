@@ -1,0 +1,6 @@
+syntax = "proto3";
+package rdma;
+
+message HelloMessage {
+    string name = 1;
+}
